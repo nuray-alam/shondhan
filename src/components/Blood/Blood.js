@@ -49,7 +49,7 @@ const Blood = () => {
     return (
         <div>
             <div className="new-donar-button">
-                <button onClick={() => handleCreateButton()}>Create New Donar</button>
+                <button onClick={() => handleCreateButton()}>Create New Donor</button>
             </div>
             <div className="donar-form">
                 <p>Name: <input type="text" name="" id="dName" /></p>
