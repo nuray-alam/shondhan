@@ -9,3 +9,15 @@
 .new-donar-button button {
   height: 35px;
 }
+.donar-form {
+  text-align: center;
+  display: none;
+}
+.donar-form input {
+  width: 300px;
+}
+#submit-button {
+  width: 150px;
+  height: 40px;
+  background-color: yellow;
+}
