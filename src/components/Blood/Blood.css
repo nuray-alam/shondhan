@@ -1,0 +1,11 @@
+.donar-section {
+  display: flex;
+  justify-content: center;
+}
+.new-donar-button {
+  text-align: center;
+  margin-top: 50px;
+}
+.new-donar-button button {
+  height: 35px;
+}
