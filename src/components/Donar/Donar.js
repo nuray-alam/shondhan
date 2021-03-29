@@ -18,6 +18,7 @@ const Donar = ({ donar }) => {
             <h5>Age: {Age}</h5>
             <h5>Gender: {Gender}</h5>
             <h5>Blood Group: {BGroup}</h5>
+            <h5>Address: {Address}</h5>
         </div>
     );
 };
