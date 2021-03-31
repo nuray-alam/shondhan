@@ -1,10 +1,10 @@
 import './App.css';
-import Header from './components/Header/Header';
 import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Link
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import Blood from './components/Blood/Blood';
@@ -12,8 +12,18 @@ import Missing from './components/Missing/Missing';
 function App() {
   return (
     <div className="App">
-      <Header></Header>
       <Router>
+      <div className='header'>
+            <div className="title-section">
+                <h1>Shondhan</h1>
+            </div>
+
+            <nav>
+                <Link to="/home">Home</Link>
+                <Link to="/blood_donors">Blood Donors</Link>
+                <Link to="/missing_post">Missing Post</Link>
+            </nav>
+        </div>
         <Switch>
           <Route exact path='/'>
             <Home></Home>
