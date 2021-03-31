@@ -1,17 +1,25 @@
 .header {
   text-align: center;
 }
-.header nav{
-    background-color: black;
-    line-height: 40px;
-    font-size: 20px;
+.title-section {
+  background-color: slateblue;
 }
-nav a{
-    text-decoration: none;
-    color: white;
-    margin-right: 20px;
-    padding: 5px;
+.title-section h1 {
+  margin: 0px auto;
+  padding: 20px 0px;
+  font-size: 40px;
 }
-nav a:hover{
-    background-color: gray;
+.header nav {
+  background-color: black;
+  line-height: 40px;
+  font-size: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  padding: 5px;
+}
+nav a:hover {
+  background-color: gray;
 }

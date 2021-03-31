@@ -37,7 +37,8 @@ const Blood = () => {
         document.getElementsByClassName('new-donar-button')[0].style.display = 'block';
         document.getElementsByClassName('donar-form')[0].style.display = 'none';
         const newDonar = {};
-        newDonar.name = document.getElementById('dName').value;
+        newDonar.id = savedDonars.length;
+            newDonar.name = document.getElementById('dName').value;
         newDonar.Age = document.getElementById('dAge').value;
         newDonar.Gender = document.getElementById('dGender').value;
         newDonar.BGroup = document.getElementById('dBloodGroup').value;

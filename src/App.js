@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import Blood from './components/Blood/Blood';
+import Missing from './components/Missing/Missing';
 function App() {
   return (
     <div className="App">
@@ -21,11 +22,11 @@ function App() {
           <Route path='/home'>
             <Home></Home>
           </Route>
-          <Route exact path='/blood'>
+          <Route exact path='/blood_donors'>
             <Blood></Blood>
           </Route>
-          <Route exact path='/missing'>
-
+          <Route exact path='/missing_post'>
+            <Missing></Missing>
           </Route>
           <Route path='*'>
 
