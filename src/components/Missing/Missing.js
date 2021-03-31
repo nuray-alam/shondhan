@@ -24,7 +24,7 @@ const Missing = () => {
 
         const newSavedMissingPosts = JSON.parse(textFileOfMissingPosts);
         setSavedMissingPosts(newSavedMissingPosts);
-    }, [localStorage.getItem('missingPosts')]);
+    }, []);
 
     const handleCreateButton = () => {
         document.getElementsByClassName('new-missing-post-button')[0].style.display = 'none';

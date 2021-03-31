@@ -25,7 +25,7 @@ const Blood = () => {
         // const textFileOfDonars = savedDonars;
         const newSaveDonars = JSON.parse(textFileOfDonars);
         setSavedDonars(newSaveDonars);
-    }, [localStorage.getItem('donars')]);
+    }, []);
 
 
     const handleCreateButton = () => {
